@@ -1,0 +1,52 @@
+{
+    "peer1": {
+        "address": "http://194.87.219.96:8080/peer1/peer1.conf",
+        "ip": "10.13.13.2",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer10": {
+        "address": "http://194.87.219.96:8080/peer10/peer10.conf",
+        "ip": "10.13.13.11",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer2": {
+        "address": "http://194.87.219.96:8080/peer2/peer2.conf",
+        "ip": "10.13.13.3",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer3": {
+        "address": "http://194.87.219.96:8080/peer3/peer3.conf",
+        "ip": "10.13.13.4",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer4": {
+        "address": "http://194.87.219.96:8080/peer4/peer4.conf",
+        "ip": "10.13.13.5",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer5": {
+        "address": "http://194.87.219.96:8080/peer5/peer5.conf",
+        "ip": "10.13.13.6",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer6": {
+        "address": "http://194.87.219.96:8080/peer6/peer6.conf",
+        "ip": "10.13.13.7",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer7": {
+        "address": "http://194.87.219.96:8080/peer7/peer7.conf",
+        "ip": "10.13.13.8",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer8": {
+        "address": "http://194.87.219.96:8080/peer8/peer8.conf",
+        "ip": "10.13.13.9",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    },
+    "peer9": {
+        "address": "http://194.87.219.96:8080/peer9/peer9.conf",
+        "ip": "10.13.13.10",
+        "publickey": "30aWMWWwrog2Oj3mff/JkoIh4H2Q/eXfppX061Sg+C4="
+    }
+}
