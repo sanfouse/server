@@ -3,9 +3,11 @@ import sys
 import json
 from configparser import ConfigParser
 
+address = ['109.161.50.35', '194.226.121.59']
+
 class CORSRequestHandler (SimpleHTTPRequestHandler):
     def end_headers(self):
-        if self.client_address[0] not in '194.87.219.96':
+        if self.client_address[0] not in '109.161.50.35':
             self.send_response(401, 'request not allowed')
         else:
             SimpleHTTPRequestHandler.end_headers(self)
@@ -21,7 +23,7 @@ if __name__ == '__main__':
             peer = dict(config.items('Peer'))
             address = interface['address']
             publickey = peer['publickey']
-            result['address'] = address
+            result['ip'] = ip
             result['publickey'] = publickey
             response[f'peer{peer}'] = result
       with open('data.json', 'w') as out_file:
